@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  font-family: 'Abel';
+}
+
+.continent-btns {
+  margin-top: 6rem;
+  display: flex;
+}
+
+.continent-btn {
+  color: white;
+  font-size: 1.2rem;
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Abel';
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.northamerica {
+  background: slateblue;
+}
+
+.southamerica {
+  background: orange;
+}
+
+.europe {
+  background: teal;
+}
+
+.africa {
+  background: hotpink;
+}
+
+.asia {
+  background: dodgerblue;
+}
+
+.oceania {
+  background: tomato;
+}
